@@ -183,3 +183,4 @@ echo $TRAVIS_COMMIT_LOG
 
 # Utilities
 #find $(grep -R "$1" * | cut -d: -f 1 | uniq ) -exec sed -ie "s/$1/$2/g" \{\} \;
+#sed -i  "s/\(<translation.*\)bitcoin\(.*<\/translation>\)/\1usdkhan\2/g" bitcoin_zh_TW.ts
