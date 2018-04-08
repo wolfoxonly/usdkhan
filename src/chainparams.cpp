@@ -284,8 +284,8 @@ public:
             genesis.nNonce++;
         }
 
-        assert(genesis.GetHash() == HASH_GENESIS);
-        assert(genesis.hashMerkleRoot == HASH_MERKLEROOT);
+        //assert(genesis.GetHash() == HASH_GENESIS);
+        //assert(genesis.hashMerkleRoot == HASH_MERKLEROOT);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         vFixedSeeds.clear();
@@ -401,8 +401,8 @@ public:
             genesis.nNonce++;
         }
 
-        assert(genesis.GetHash() == HASH_GENESIS);
-        assert(genesis.hashMerkleRoot == HASH_MERKLEROOT);
+        //assert(genesis.GetHash() == HASH_GENESIS);
+        //assert(genesis.hashMerkleRoot == HASH_MERKLEROOT);
         consensus.hashGenesisBlock = genesis.GetHash();
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
