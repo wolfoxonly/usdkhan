@@ -117,7 +117,7 @@ bool WalletParameterInteraction()
     if (gArgs.IsArgSet("-mintxfee"))
     {
         CAmount n = 0;
-        if (!ParseMoney(gArgs.GetArg("-mintxfee", ""), n) || 0 == n)
+        if (!ParseMoney(gArgs.GetArg("-mintxfee", ""), n) /*|| 0 == n*/)
             return InitError(AmountErrMsg("mintxfee", gArgs.GetArg("-mintxfee", "")));
         if (n > HIGH_TX_FEE_PER_KB)
             InitWarning(AmountHighWarn("-mintxfee") + " " +
