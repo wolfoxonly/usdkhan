@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Bitcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <translation>Hierdie is die adresse vanwaar u usdkhan betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Bitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <translation>Hierdie is die adresse waar u usdkhans sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -331,7 +331,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Stuur munte na 'n Bitcoin adres</translation>
+        <translation>Stuur munte na 'n usdkhan adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -355,7 +355,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -383,11 +383,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Bitcoin adresse om u eienaarskap te bewys</translation>
+        <translation>Onderteken boodskappe met u usdkhan adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Bitcoin adresse</translation>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde usdkhan adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -513,7 +513,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Bitcoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <translation>'N fatale fout het voorgekom. usdkhan kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -707,7 +707,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Bitcoin adres nie.</translation>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige usdkhan adres nie.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -820,7 +820,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1185,7 +1185,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Voer in 'n Bitcoin adres (bv. %1)</translation>
+        <translation>Voer in 'n usdkhan adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1915,7 +1915,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Kern</translation>
+        <translation>usdkhan Kern</translation>
     </message>
     <message>
         <source>Connection options:</source>

@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1은 Bitcoin 블록 체인의 사본을 다운로드하여 저장합니다.</translation>
+        <translation>%1은 usdkhan 블록 체인의 사본을 다운로드하여 저장합니다.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1093,7 +1093,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 Bitcoin 클라이언트 포트를 자동적으로 엽니다. 라우터에서 UPnP를 지원하고 활성화 했을 경우에만 동작합니다.</translation>
+        <translation>라우터에서 usdkhan 클라이언트 포트를 자동적으로 엽니다. 라우터에서 UPnP를 지원하고 활성화 했을 경우에만 동작합니다.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

@@ -387,11 +387,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>وقَع الرسائل بواسطة ال: Bitcoin الخاص بك لإثبات امتلاكك لهم</translation>
+        <translation>وقَع الرسائل بواسطة ال: usdkhan الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Bitcoin محدَدة</translation>
+        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل usdkhan محدَدة</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -423,7 +423,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>فتح URI : Bitcoin أو طلب دفع</translation>
+        <translation>فتح URI : usdkhan أو طلب دفع</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

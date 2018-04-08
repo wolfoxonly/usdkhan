@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ceci sont vos addresses Bitcoin pour envoyer vos paiements. Il faut toujours verifier les montants et l'addresse de reception avant de valider la transaction.</translation>
+        <translation>Ceci sont vos addresses usdkhan pour envoyer vos paiements. Il faut toujours verifier les montants et l'addresse de reception avant de valider la transaction.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ceci sont vos addresses Bitcoin pour recevoir vos paiements. Il est recommandé d'utiliser une nouvelle adresse de recepetion pour chaque transaction</translation>
+        <translation>Ceci sont vos addresses usdkhan pour recevoir vos paiements. Il est recommandé d'utiliser une nouvelle adresse de recepetion pour chaque transaction</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Envoyer des pièces à une adresse Bitcoin</translation>
+        <translation>Envoyer des pièces à une adresse usdkhan</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -387,7 +387,7 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Bitcoin pour prouver que vous les détenez</translation>
+        <translation>Signer vos messages avec vos adresses usdkhan pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -687,7 +687,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Bitcoin valide.</translation>
+        <translation>L'adresse entrée "%1" n'est pas une adresse usdkhan valide.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -776,7 +776,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -861,7 +861,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Bitcoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <translation>Ouvrir le port du client usdkhan automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1061,7 +1061,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Entrer une adresse Bitcoin (e.g. %1)</translation>
+        <translation>Entrer une adresse usdkhan (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1626,7 +1626,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Attention: Adresse Bitcoin Invalide</translation>
+        <translation>Attention: Adresse usdkhan Invalide</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2215,7 +2215,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <translation>usdkhan Core</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

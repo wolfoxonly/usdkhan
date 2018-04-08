@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -483,7 +483,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě %1</translation>
+        <translation>Seznam argumentů usdkhanu pro příkazovou řádku získáš v nápovědě %1</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,7 +553,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Bitcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <translation>Stala se fatální chyba. usdkhan nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -2285,7 +2285,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoinová adresa příjemce</translation>
+        <translation>usdkhanová adresa příjemce</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2378,7 +2378,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoinová adresa, kterou se zpráva podepíše</translation>
+        <translation>usdkhanová adresa, kterou se zpráva podepíše</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2434,7 +2434,7 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoinová adresa, kterou je zpráva podepsána</translation>
+        <translation>usdkhanová adresa, kterou je zpráva podepsána</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
@@ -3127,7 +3127,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <translation>usdkhan Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

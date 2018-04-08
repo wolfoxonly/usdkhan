@@ -64,11 +64,11 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ini adalah alamat Bitcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
+        <translation>Ini adalah alamat usdkhan anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ini adalah alamat Bitcoin anda untuk menerima pembayaraan.  Anda disyorkan untuk menguna alamat menerima untuk setiap transaksi.</translation>
+        <translation>Ini adalah alamat usdkhan anda untuk menerima pembayaraan.  Anda disyorkan untuk menguna alamat menerima untuk setiap transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -340,7 +340,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Menghantar koin kepada alamat Bitcoin</translation>
+        <translation>Menghantar koin kepada alamat usdkhan</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -364,7 +364,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -396,7 +396,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Bitcoin yang ditentukan</translation>
+        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat usdkhan yang ditentukan</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -439,7 +439,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     <name>Intro</name>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     </context>
 <context>

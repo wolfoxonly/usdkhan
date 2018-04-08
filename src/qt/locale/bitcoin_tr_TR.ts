@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödeme göndermek için gereken Bitcoin adreslerinizdir. Para göndermeden önce her zaman miktarı ve alıcı adresi kontrol edin.</translation>
+        <translation>Bunlar ödeme göndermek için gereken usdkhan adreslerinizdir. Para göndermeden önce her zaman miktarı ve alıcı adresi kontrol edin.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödeme almak için kullanılacak Bitcoin adreslerinizdir. Her işlem için yeni bir ödeme alma adresi kullanılması tavsiye edilir.</translation>
+        <translation>Bunlar ödeme almak için kullanılacak usdkhan adreslerinizdir. Her işlem için yeni bir ödeme alma adresi kullanılması tavsiye edilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -255,7 +255,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Bitcoin adresine madeni para gönderin</translation>
+        <translation>usdkhan adresine madeni para gönderin</translation>
     </message>
     <message>
         <source>Bitcoin</source>

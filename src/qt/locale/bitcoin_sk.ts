@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Bitcoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
+        <translation>Toto sú Vaše usdkhan adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Bitcoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
+        <translation>Toto sú vaše usdkhan adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -395,11 +395,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Bitcoin aby ste preukázali že ju vlastníte</translation>
+        <translation>Podpísať správu s vašou adresou usdkhan aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Bitcoin adresou</translation>
+        <translation>Overiť či správa bola podpísaná uvedenou usdkhan adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -439,7 +439,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktívne pripojenie do siete Bitcoin</numerusform><numerusform>%n aktívne pripojenia do siete Bitcoin</numerusform><numerusform>%n aktívnych pripojení do siete Bitcoin</numerusform></translation>
+        <translation><numerusform>%n aktívne pripojenie do siete Bitcoin</numerusform><numerusform>%n aktívne pripojenia do siete Bitcoin</numerusform><numerusform>%n aktívnych pripojení do siete usdkhan</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,7 +483,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení Bitcoinu pomocou príkazového riadku</translation>
+        <translation>Ukáž %1 zoznam možných nastavení usdkhanu pomocou príkazového riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,7 +553,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Vyskytla sa kritická chyba. Bitcoin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
+        <translation>Vyskytla sa kritická chyba. usdkhan nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
     </message>
 </context>
 <context>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Vložená adresa "%1" nieje platnou adresou Bitcoin.</translation>
+        <translation>Vložená adresa "%1" nieje platnou adresou usdkhan.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -1093,7 +1093,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Bitcoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <translation>Automaticky otvorit port pre usdkhan na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1109,7 +1109,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Bitcoin cez proxy server SOCKS5.</translation>
+        <translation>Pripojiť do siete usdkhan cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1145,7 +1145,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k Bitcoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+        <translation>Pripojiť k usdkhanovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1252,7 +1252,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Bitcoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou usdkhan po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1327,7 +1327,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Nemôžeme spustiť Bitcoin: obsluha click-to-pay</translation>
+        <translation>Nemôžeme spustiť usdkhan: obsluha click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1343,7 +1343,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Bitcoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
+        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou usdkhan adresou alebo zle nastavenými vlastnosťami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1870,7 +1870,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Bitcoin.</translation>
+        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť usdkhan.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2031,7 +2031,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Bitcoins</translation>
+        <translation>Poslať usdkhans</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2283,7 +2283,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Varovanie: Neplatná Bitcoin adresa</translation>
+        <translation>Varovanie: Neplatná usdkhan adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2374,7 +2374,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Správa ktorá bola pripojená k usdkhan: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Bitcoin.</translation>
+        <translation>Správa ktorá bola pripojená k usdkhan: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť usdkhan.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2423,7 +2423,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin adresa pre podpísanie správy s</translation>
+        <translation>usdkhan adresa pre podpísanie správy s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2479,11 +2479,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>Adresa Bitcoin, ktorou bola podpísaná správa</translation>
+        <translation>Adresa usdkhan, ktorou bola podpísaná správa</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Bitcoin adresou</translation>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou usdkhan adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3176,7 +3176,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <translation>usdkhan Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

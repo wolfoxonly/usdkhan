@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Acestea sunt adresele tale Bitcoin pentru efectuarea platilor. Intotdeauna verifica atent suma de plata si adresa beneficiarului inainte de a trimite monede.</translation>
+        <translation>Acestea sunt adresele tale usdkhan pentru efectuarea platilor. Intotdeauna verifica atent suma de plata si adresa beneficiarului inainte de a trimite monede.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Acestea sunt adresele tale Bitcoin pentru receptionarea platilor. Este recomandat sa folosesti mereu o adresa noua pentru primirea platilor.</translation>
+        <translation>Acestea sunt adresele tale usdkhan pentru receptionarea platilor. Este recomandat sa folosesti mereu o adresa noua pentru primirea platilor.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Trimite monede către o adresă Bitcoin</translation>
+        <translation>Trimite monede către o adresă usdkhan</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -363,7 +363,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -391,11 +391,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. Bitcoin pentru a dovedi că vă aparţin</translation>
+        <translation>Semnaţi mesaje cu adresa dvs. usdkhan pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Bitcoin specificată</translation>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa usdkhan specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -435,7 +435,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n conexiune activă către reţeaua Bitcoin</numerusform><numerusform>%n conexiuni active către reţeaua Bitcoin</numerusform><numerusform>%n de conexiuni active către reţeaua Bitcoin</numerusform></translation>
+        <translation><numerusform>%n conexiune activă către reţeaua Bitcoin</numerusform><numerusform>%n conexiuni active către reţeaua Bitcoin</numerusform><numerusform>%n de conexiuni active către reţeaua usdkhan</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Arată mesajul de ajutor %1 pentru a obţine o listă cu opţiunile posibile de linii de comandă Bitcoin</translation>
+        <translation>Arată mesajul de ajutor %1 pentru a obţine o listă cu opţiunile posibile de linii de comandă usdkhan</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -549,7 +549,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>A survenit o eroare fatală. Bitcoin nu mai poate continua în siguranţă şi se va opri.</translation>
+        <translation>A survenit o eroare fatală. usdkhan nu mai poate continua în siguranţă şi se va opri.</translation>
     </message>
 </context>
 <context>
@@ -739,7 +739,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Adresa introdusă "%1" nu este o adresă Bitcoin validă.</translation>
+        <translation>Adresa introdusă "%1" nu este o adresă usdkhan validă.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -868,7 +868,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -880,7 +880,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 va descarca si stoca o copie a blockchainului Bitcoin</translation>
+        <translation>%1 va descarca si stoca o copie a blockchainului usdkhan</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -911,7 +911,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Tranzactiile recente pot sa nu fie inca vizibile, de aceea balanta portofelului poate fi incorecta. Aceasta informatie va fi corecta de indata ce portofelul va fi complet sincronizat cu reteaua Bitcoin, asa cum este detaliat mai jos.</translation>
+        <translation>Tranzactiile recente pot sa nu fie inca vizibile, de aceea balanta portofelului poate fi incorecta. Aceasta informatie va fi corecta de indata ce portofelul va fi complet sincronizat cu reteaua usdkhan, asa cum este detaliat mai jos.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1073,7 +1073,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Bitcoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <translation>Deschide automat în router portul aferent clientului usdkhan. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1081,7 +1081,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectare la reţeaua Bitcoin printr-un proxy SOCKS.</translation>
+        <translation>Conectare la reţeaua usdkhan printr-un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1117,7 +1117,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectare la reteaua Bitcoin printr-un proxy SOCKS5 separat pentru serviciile TOR ascunse.</translation>
+        <translation>Conectare la reteaua usdkhan printr-un proxy SOCKS5 separat pentru serviciile TOR ascunse.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1220,7 +1220,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Bitcoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua usdkhan după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1295,7 +1295,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bitcoin nu poate porni: click-to-pay handler</translation>
+        <translation>usdkhan nu poate porni: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1311,7 +1311,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Bitcoin invalidă sau parametri URI deformaţi.</translation>
+        <translation>URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă usdkhan invalidă sau parametri URI deformaţi.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1413,7 +1413,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Introduceţi o adresă Bitcoin (de exemplu %1)</translation>
+        <translation>Introduceţi o adresă usdkhan (de exemplu %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1829,7 +1829,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Bitcoin.</translation>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua usdkhan.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2390,7 +2390,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Bitcoin</translation>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă usdkhan</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2414,11 +2414,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>Introduceţi o adresă Bitcoin</translation>
+        <translation>Introduceţi o adresă usdkhan</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Bitcoin specificată</translation>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa usdkhan specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3103,7 +3103,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Nucleul Bitcoin</translation>
+        <translation>Nucleul usdkhan</translation>
     </message>
     <message>
         <source>The %s developers</source>

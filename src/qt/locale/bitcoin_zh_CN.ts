@@ -3045,7 +3045,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <translation>usdkhan Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

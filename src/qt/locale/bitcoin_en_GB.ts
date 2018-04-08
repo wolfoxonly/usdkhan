@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <translation>These are your usdkhan addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <translation>These are your usdkhan addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a Bitcoin address</translation>
+        <translation>Send coins to a usdkhan address</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -395,11 +395,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Bitcoin addresses to prove you own them</translation>
+        <translation>Sign messages with your usdkhan addresses to prove you own them</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
+        <translation>Verify messages to ensure they were signed with specified usdkhan addresses</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -439,7 +439,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n active connection to Bitcoin network</numerusform><numerusform>%n active connections to Bitcoin network</numerusform></translation>
+        <translation><numerusform>%n active connection to Bitcoin network</numerusform><numerusform>%n active connections to usdkhan network</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,7 +483,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Show the %1 help message to get a list with possible Bitcoin command-line options</translation>
+        <translation>Show the %1 help message to get a list with possible usdkhan command-line options</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,7 +553,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</translation>
+        <translation>A fatal error occurred. usdkhan can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>The entered address "%1" is not a valid Bitcoin address.</translation>
+        <translation>The entered address "%1" is not a valid usdkhan address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 will download and store a copy of the Bitcoin block chain.</translation>
+        <translation>%1 will download and store a copy of the usdkhan block chain.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -919,11 +919,11 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronising with the Bitcoin network, as detailed below.</translation>
+        <translation>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronising with the usdkhan network, as detailed below.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Attempting to spend Bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
+        <translation>Attempting to spend usdkhans that are affected by not-yet-displayed transactions will not be accepted by the network.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1093,7 +1093,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <translation>Automatically open the usdkhan client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1109,7 +1109,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Bitcoin network through a SOCKS5 proxy.</translation>
+        <translation>Connect to the usdkhan network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1145,7 +1145,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <translation>Connect to the usdkhan network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1252,7 +1252,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your Wallet automatically synchronises with the Bitcoin Network after a connection is established, but this process has not been completed yet.</translation>
+        <translation>The displayed information may be out of date. Your Wallet automatically synchronises with the usdkhan Network after a connection is established, but this process has not been completed yet.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1327,7 +1327,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Cannot start Bitcoin: click-to-pay handler</translation>
+        <translation>Cannot start usdkhan: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1343,7 +1343,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</translation>
+        <translation>URI cannot be parsed! This can be caused by an invalid usdkhan address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1445,7 +1445,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Enter a Bitcoin address (e.g. %1)</translation>
+        <translation>Enter a usdkhan address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1869,7 +1869,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</translation>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the usdkhan network.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2286,7 +2286,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Warning: Invalid Bitcoin address</translation>
+        <translation>Warning: Invalid usdkhan address</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2329,7 +2329,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>The Bitcoin address to send the payment to</translation>
+        <translation>The usdkhan address to send the payment to</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2377,7 +2377,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>A message that was attached to the usdkhan: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</translation>
+        <translation>A message that was attached to the usdkhan: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the usdkhan network.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2426,7 +2426,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>The Bitcoin address to sign the message with</translation>
+        <translation>The usdkhan address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2458,7 +2458,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Sign the message to prove you own this Bitcoin address</translation>
+        <translation>Sign the message to prove you own this usdkhan address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2482,11 +2482,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>The Bitcoin address the message was signed with</translation>
+        <translation>The usdkhan address the message was signed with</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Bitcoin address</translation>
+        <translation>Verify the message to ensure it was signed with the specified usdkhan address</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3179,7 +3179,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <translation>usdkhan Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

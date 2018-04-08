@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için kullanacağınız Bitcoin adreslerinizdir. Bitcoin yollamadan önce tutarı ve alıcının alım adresini her zaman kontrol ediniz.</translation>
+        <translation>Bunlar ödemeleri göndermek için kullanacağınız Bitcoin adreslerinizdir. usdkhan yollamadan önce tutarı ve alıcının alım adresini her zaman kontrol ediniz.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için kullanacağınız Bitcoin adreslerinizdir. Her işlem için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
+        <translation>Bunlar ödemeleri almak için kullanacağınız usdkhan adreslerinizdir. Her işlem için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -395,11 +395,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>İletileri adreslerin size ait olduğunu ispatlamak için Bitcoin adresleri ile imzala</translation>
+        <translation>İletileri adreslerin size ait olduğunu ispatlamak için usdkhan adresleri ile imzala</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Belirtilen Bitcoin adresleri ile imzalandıklarından emin olmak için iletileri kontrol et</translation>
+        <translation>Belirtilen usdkhan adresleri ile imzalandıklarından emin olmak için iletileri kontrol et</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -439,7 +439,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>Bitcoin şebekesine %n faal bağlantı</numerusform><numerusform>Bitcoin ağına %n etkin bağlantı var</numerusform></translation>
+        <translation><numerusform>Bitcoin şebekesine %n faal bağlantı</numerusform><numerusform>usdkhan ağına %n etkin bağlantı var</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,7 +483,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Olası Bitcoin komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
+        <translation>Olası usdkhan komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,14 +553,14 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ölümcül bir hata oluştu. Bitcoin yazılımı artık güvenli bir şekilde çalışmaya devam edemediği için kapatılacaktır.</translation>
+        <translation>Ölümcül bir hata oluştu. usdkhan yazılımı artık güvenli bir şekilde çalışmaya devam edemediği için kapatılacaktır.</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Bitcoin Seçimi</translation>
+        <translation>usdkhan Seçimi</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Girilen "%1" adresi geçerli bir Bitcoin adresi değildir.</translation>
+        <translation>Girilen "%1" adresi geçerli bir usdkhan adresi değildir.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -868,7 +868,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
@@ -1077,7 +1077,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide Bitcoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <translation>Yönlendiricide usdkhan istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1093,7 +1093,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Bitcoin ağına bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
+        <translation>usdkhan ağına bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1129,7 +1129,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Bitcoin ağına gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
+        <translation>usdkhan ağına gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1165,7 +1165,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Bitcoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>usdkhan gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1236,7 +1236,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak Bitcoin ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
+        <translation>Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak usdkhan ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1311,7 +1311,7 @@
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Bitcoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
+        <translation>usdkhan başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1327,7 +1327,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamıyor! Bunun nedeni geçersiz bir Bitcoin adresi veya hatalı biçimlendirilmiş URI değişkenleri olabilir.</translation>
+        <translation>URI ayrıştırılamıyor! Bunun nedeni geçersiz bir usdkhan adresi veya hatalı biçimlendirilmiş URI değişkenleri olabilir.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1429,7 +1429,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Bir Bitcoin adresi giriniz (mesela %1)</translation>
+        <translation>Bir usdkhan adresi giriniz (mesela %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1798,7 +1798,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>UYARI: Bitcoin dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki usdkhanleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
+        <translation>UYARI: usdkhan dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki usdkhanleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -1853,7 +1853,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir ileti. Not: Bu ileti ödeme ile birlikte Bitcoin ağı üzerinden gönderilmeyecektir.</translation>
+        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir ileti. Not: Bu ileti ödeme ile birlikte usdkhan ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2010,7 +2010,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Bitcoin yolla</translation>
+        <translation>usdkhan yolla</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2198,7 +2198,7 @@
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bitcoin gönderimini onaylayın</translation>
+        <translation>usdkhan gönderimini onaylayın</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2242,7 +2242,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Uyarı: geçersiz Bitcoin adresi</translation>
+        <translation>Uyarı: geçersiz usdkhan adresi</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2285,7 +2285,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>Ödemenin yollanacağı Bitcoin adresi</translation>
+        <translation>Ödemenin yollanacağı usdkhan adresi</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2333,7 +2333,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Referans için usdkhan: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Bitcoin ağı üzerinden gönderilmeyecektir.</translation>
+        <translation>Referans için usdkhan: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj usdkhan ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2382,7 +2382,7 @@
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>İletinin imzalanmasında kullanılacak Bitcoin adresi</translation>
+        <translation>İletinin imzalanmasında kullanılacak usdkhan adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2414,7 +2414,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Bu Bitcoin adresinin sizin olduğunu ispatlamak için iletiyi imzalayın</translation>
+        <translation>Bu usdkhan adresinin sizin olduğunu ispatlamak için iletiyi imzalayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2438,11 +2438,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>İletinin imzalanmasında kullanılan Bitcoin adresi</translation>
+        <translation>İletinin imzalanmasında kullanılan usdkhan adresi</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Belirtilen Bitcoin adresi ile imzalandığını doğrulamak için iletiyi kontrol et</translation>
+        <translation>Belirtilen usdkhan adresi ile imzalandığını doğrulamak için iletiyi kontrol et</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2993,7 +2993,7 @@
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Bitcoini Gönder</translation>
+        <translation>usdkhani Gönder</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
@@ -3123,7 +3123,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Çekirdeği</translation>
+        <translation>usdkhan Çekirdeği</translation>
     </message>
     <message>
         <source>The %s developers</source>

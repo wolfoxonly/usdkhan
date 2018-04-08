@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bitcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw usdkhans verzendt.</translation>
+        <translation>Dit zijn uw usdkhanadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw usdkhans verzendt.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Bitcoin-adressen waarmee u betalingen kunt ontvangen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <translation>Dit zijn uw usdkhan-adressen waarmee u betalingen kunt ontvangen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -343,7 +343,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Verstuur munten naar een Bitcoinadres</translation>
+        <translation>Verstuur munten naar een usdkhanadres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -395,11 +395,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <translation>Onderteken berichten met uw usdkhanadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoinadressen</translation>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde usdkhanadressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -439,7 +439,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n actieve verbinding met Bitcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met Bitcoinnetwerk</numerusform></translation>
+        <translation><numerusform>%n actieve verbinding met Bitcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met usdkhannetwerk</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,7 +483,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Toon het %1 hulpbericht om een lijst te krijgen met mogelijke Bitcoin commandoregelopties</translation>
+        <translation>Toon het %1 hulpbericht om een lijst te krijgen met mogelijke usdkhan commandoregelopties</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,7 +553,7 @@
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout heeft zich voorgedaan. Bitcoin kan niet veilig worden verdergezet en wordt afgesloten.</translation>
+        <translation>Een fatale fout heeft zich voorgedaan. usdkhan kan niet veilig worden verdergezet en wordt afgesloten.</translation>
     </message>
 </context>
 <context>
@@ -747,7 +747,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig Bitcoinadres.</translation>
+        <translation>Het opgegeven adres "%1" is een ongeldig usdkhanadres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -888,7 +888,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 zal een kopie van de blokketen van Bitcoin downloaden en opslaan.</translation>
+        <translation>%1 zal een kopie van de blokketen van usdkhan downloaden en opslaan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -919,7 +919,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de geldbeugel is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het Bitcoin-netwerk werd voltooid, zoals onderaan beschreven.</translation>
+        <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de geldbeugel is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het usdkhan-netwerk werd voltooid, zoals onderaan beschreven.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1089,7 +1089,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Bitcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <translation>Open de usdkhanpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1105,7 +1105,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het Bitcoinnetwerk via een SOCKS5 proxy.</translation>
+        <translation>Verbind met het usdkhannetwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1141,7 +1141,7 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Maak verbinding met Bitcoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
+        <translation>Maak verbinding met usdkhannetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1248,7 +1248,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het usdkhannetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1339,7 +1339,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Bitcoin adres of misvormde URI parameters.</translation>
+        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig usdkhan adres of misvormde URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1441,7 +1441,7 @@
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Voer een Bitcoinadres in (bijv. %1)</translation>
+        <translation>Voer een usdkhanadres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1857,7 +1857,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Bitcoinnetwerk.</translation>
+        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het usdkhannetwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2254,7 +2254,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Waarschuwing: Ongeldig Bitcoinadres</translation>
+        <translation>Waarschuwing: Ongeldig usdkhanadres</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2297,7 +2297,7 @@
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>Het Bitcoinadres om betaling aan te versturen</translation>
+        <translation>Het usdkhanadres om betaling aan te versturen</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2341,7 +2341,7 @@
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de usdkhan: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bitcoinnetwerk.</translation>
+        <translation>Een bericht dat werd toegevoegd aan de usdkhan: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het usdkhannetwerk.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2386,11 +2386,11 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Bitcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
+        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u usdkhans kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>Het Bitcoinadres om bericht mee te ondertekenen</translation>
+        <translation>Het usdkhanadres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2422,7 +2422,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald usdkhanadres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2446,11 +2446,11 @@
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>Het Bitcoinadres waarmee het bericht ondertekend is</translation>
+        <translation>Het usdkhanadres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde usdkhanadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3139,7 +3139,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <translation>usdkhan Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
