@@ -81,12 +81,12 @@
     <message>
         <location line="+7"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your BitGold addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <translation>These are your usdkhan addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your BitGold addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <translation>These are your usdkhan addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -436,7 +436,7 @@
     <message>
         <location line="-511"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a BitGold address</translation>
+        <translation>Send coins to a usdkhan address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -466,7 +466,7 @@
     <message>
         <location line="+517"/>
         <source>Bitcoin</source>
-        <translation>BitGold</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -558,7 +558,7 @@
         <source>%n active connection(s) to Bitcoin network</source>
         <translation>
             <numerusform>%n active connection to Bitcoin network</numerusform>
-            <numerusform>%n active connections to BitGold network</numerusform>
+            <numerusform>%n active connections to usdkhan network</numerusform>
         </translation>
     </message>
     <message>
@@ -1105,7 +1105,7 @@
     <message>
         <location filename="../intro.cpp" line="+20"/>
         <source>Bitcoin</source>
-        <translation>BitGold</translation>
+        <translation>usdkhan</translation>
     </message>
     <message>
         <location line="+6"/>

@@ -60,9 +60,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("BitGold");
-    case mBTC: return QString("Milli-BitGold (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-BitGold (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("usdkhan");
+    case mBTC: return QString("Milli-usdkhan (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-usdkhan (bits) (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
 }

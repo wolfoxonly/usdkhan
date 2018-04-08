@@ -1,20 +1,20 @@
-BitGold Core integration/staging tree
+usdkhan Core integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/bitbaba/usdkhan.svg?branch=master)](https://travis-ci.org/bitbaba/usdkhan)
 
-What is BitGold?
+What is usdkhan?
 ----------------
 
-BitGold is an new digital gold that enables instant payments to
-anyone, anywhere in the world. BitGold uses peer-to-peer technology to operate
+usdkhan is an new digital gold that enables instant payments to
+anyone, anywhere in the world. usdkhan uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. BitGold Core is the name of open source
+out collectively by the network. usdkhan Core is the name of open source
 software which enables the use of this currency. see [Features](https://github.com/bitbaba/usdkhan/blob/master/README.md#features)
 and [RoadMaps](https://github.com/bitbaba/usdkhan/blob/master/README.md#roadmaps).
 
 For more information, as well as an immediately useable, binary version of
-the BitGold Core software, see https://bintray.bitbaba.com/bintray/usdkhan, or read the
+the usdkhan Core software, see https://bintray.bitbaba.com/bintray/usdkhan, or read the
 [usdkhan design](http://blog.csdn.net/hacode/article/details/78369398) and
 [bitcoin original whitepaper](https://bitcoincore.org/bitcoin.pdf).
 
@@ -40,7 +40,7 @@ Services
 License
 -------
 
-BitGold Core is released under the terms of the MIT license. 
+usdkhan Core is released under the terms of the MIT license. 
 See [COPYING](COPYING) for more information or see https://opensource.org/licenses/MIT.
 
 Features
@@ -135,7 +135,7 @@ Development Process
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/bitbaba/usdkhan/tags) are created
-regularly to indicate new official, stable release versions of BitGold Core.
+regularly to indicate new official, stable release versions of usdkhan Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

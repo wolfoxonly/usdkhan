@@ -581,7 +581,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Bitgold";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "usdkhan";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -591,7 +591,7 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Bitgold";
+    return pathRet / "Library/Application Support/usdkhan";
 #else
     // Unix
     return pathRet / ".usdkhan";
