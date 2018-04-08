@@ -65,15 +65,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bitgoldd
+  bin_PROGRAMS += usdkhand
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bitgold-cli bitgold-tx
+  bin_PROGRAMS += usdkhan-cli usdkhan-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# bitgold core #
+# usdkhan core #
 BITCOIN_CORE_H = \
   addrdb.h \
   addrman.h \
@@ -185,7 +185,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between bitgoldd and bitgold-qt
+# server: shared between usdkhand and usdkhan-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -238,7 +238,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between bitgoldd and bitgold-qt, but only linked
+# wallet: shared between usdkhand and usdkhan-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -316,7 +316,7 @@ libbitcoin_consensus_a_SOURCES = \
   utilstrencodings.h \
   version.h
 
-# common: shared between bitgoldd, and bitgold-qt and non-server tools
+# common: shared between usdkhand, and usdkhan-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -370,7 +370,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between bitcoin-cli and bitgold-qt
+# cli: shared between bitcoin-cli and usdkhan-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -380,17 +380,17 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# bitgoldd binary #
-bitgoldd_SOURCES = bitcoind.cpp
-bitgoldd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitgoldd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitgoldd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# usdkhand binary #
+usdkhand_SOURCES = bitcoind.cpp
+usdkhand_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+usdkhand_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+usdkhand_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitgoldd_SOURCES += bitcoind-res.rc
+usdkhand_SOURCES += bitcoind-res.rc
 endif
 
-bitgoldd_LDADD = \
+usdkhand_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -404,38 +404,38 @@ bitgoldd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-bitgoldd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+usdkhand_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# bitgold-cli binary #
-bitgold_cli_SOURCES = bitcoin-cli.cpp
-bitgold_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-bitgold_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitgold_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# usdkhan-cli binary #
+usdkhan_cli_SOURCES = bitcoin-cli.cpp
+usdkhan_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+usdkhan_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+usdkhan_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitgold_cli_SOURCES += bitcoin-cli-res.rc
+usdkhan_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-bitgold_cli_LDADD = \
+usdkhan_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-bitgold_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+usdkhan_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# bitgold-tx binary #
-bitgold_tx_SOURCES = bitcoin-tx.cpp
-bitgold_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitgold_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitgold_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# usdkhan-tx binary #
+usdkhan_tx_SOURCES = bitcoin-tx.cpp
+usdkhan_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+usdkhan_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+usdkhan_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bitgold_tx_SOURCES += bitcoin-tx-res.rc
+usdkhan_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-bitgold_tx_LDADD = \
+usdkhan_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -443,7 +443,7 @@ bitgold_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-bitgold_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+usdkhan_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

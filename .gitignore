@@ -1,15 +1,15 @@
 /built/
-/bitgold.config
-/bitgold.creator
-/bitgold.creator.user
-/bitgold.files
-/bitgold.includes
+/usdkhan.config
+/usdkhan.creator
+/usdkhan.creator.user
+/usdkhan.files
+/usdkhan.includes
 
 *.tar.gz
 
 *.exe
 src/bitcoin
-src/bitgoldd
+src/usdkhand
 src/bitcoin-cli
 src/bitcoin-tx
 src/test/test_bitcoin

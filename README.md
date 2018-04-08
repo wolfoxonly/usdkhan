@@ -1,7 +1,7 @@
 BitGold Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/bitbaba/bitgold.svg?branch=master)](https://travis-ci.org/bitbaba/bitgold)
+[![Build Status](https://travis-ci.org/bitbaba/usdkhan.svg?branch=master)](https://travis-ci.org/bitbaba/usdkhan)
 
 What is BitGold?
 ----------------
@@ -10,21 +10,21 @@ BitGold is an new digital gold that enables instant payments to
 anyone, anywhere in the world. BitGold uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. BitGold Core is the name of open source
-software which enables the use of this currency. see [Features](https://github.com/bitbaba/bitgold/blob/master/README.md#features)
-and [RoadMaps](https://github.com/bitbaba/bitgold/blob/master/README.md#roadmaps).
+software which enables the use of this currency. see [Features](https://github.com/bitbaba/usdkhan/blob/master/README.md#features)
+and [RoadMaps](https://github.com/bitbaba/usdkhan/blob/master/README.md#roadmaps).
 
 For more information, as well as an immediately useable, binary version of
-the BitGold Core software, see https://bintray.bitbaba.com/bintray/bitgold, or read the
-[bitgold design](http://blog.csdn.net/hacode/article/details/78369398) and
+the BitGold Core software, see https://bintray.bitbaba.com/bintray/usdkhan, or read the
+[usdkhan design](http://blog.csdn.net/hacode/article/details/78369398) and
 [bitcoin original whitepaper](https://bitcoincore.org/bitcoin.pdf).
 
 Downloads
 -------------
 
-- [Win32](https://bintray.bitbaba.com/bitgold/bitgold-win32.tar.gz)
-- [Ubuntu](https://bintray.bitbaba.com/bitgold/bitgold-ubuntu64.tar.gz)
-- [Mac](https://bintray.bitbaba.com/bitgold/bitgold-mac.tar.gz)
-- [minerd](https://bintray.bitbaba.com/bitgold/bitgold-miner.zip)
+- [Win32](https://bintray.bitbaba.com/usdkhan/usdkhan-win32.tar.gz)
+- [Ubuntu](https://bintray.bitbaba.com/usdkhan/usdkhan-ubuntu64.tar.gz)
+- [Mac](https://bintray.bitbaba.com/usdkhan/usdkhan-mac.tar.gz)
+- [minerd](https://bintray.bitbaba.com/usdkhan/usdkhan-miner.zip)
 
 Services
 ----------------
@@ -33,7 +33,7 @@ Services
 
 - [Miner](https://github.com/bitbaba/cpuminer)
 
-- [Explorer](https://bitgold.bitbaba.com/)
+- [Explorer](https://usdkhan.bitbaba.com/)
 
 - [Exchange](https://ex.bitbaba.com/)
 
@@ -56,7 +56,7 @@ Roadmaps
 ----------------
 
 - Support chainstate retrieving in script stack machine
-  - nonceOf(height) [commits](https://github.com/bitbaba/bitgold/commits/nonceOf)
+  - nonceOf(height) [commits](https://github.com/bitbaba/usdkhan/commits/nonceOf)
   - hashOf(height)
   - timeOf(height)
 
@@ -103,7 +103,7 @@ mine.sh
 
 ```
 while true; 
-    do ./bitgold-cli generatetoaddress 1 GZmKHp12bDUiDCkvvzyZzytwRcNaW3viDM 10000000; 
+    do ./usdkhan-cli generatetoaddress 1 GZmKHp12bDUiDCkvvzyZzytwRcNaW3viDM 10000000; 
 done
 ```
 
@@ -115,14 +115,14 @@ mine.bat
 
 echo minging...
 
-bitgold-cli generatetoaddress 1 GZmKHp12bDUiDCkvvzyZzytwRcNaW3viDM 10000000
+usdkhan-cli generatetoaddress 1 GZmKHp12bDUiDCkvvzyZzytwRcNaW3viDM 10000000
 
 ping -w 1 -n 5 1.0.0.1
 
 goto :restart
 ```
 
->Note: remember to configure bitgold.conf with:
+>Note: remember to configure usdkhan.conf with:
 
 ```
 server=1
@@ -134,22 +134,22 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitbaba/bitgold/tags) are created
+completely stable. [Tags](https://github.com/bitbaba/usdkhan/tags) are created
 regularly to indicate new official, stable release versions of BitGold Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitgold-dev)
+The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/usdkhan-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #bitgold-core-dev.
+Developer IRC can be found on Freenode at #usdkhan-core-dev.
 
 Automated Building
 ------------------
 
 As you known, the .travis.yml is used for automated building. and here is a localized script called *travis.sh*, 
-which can be used to build bitgold on your local laptop.
+which can be used to build usdkhan on your local laptop.
 
 Example Usage:
 

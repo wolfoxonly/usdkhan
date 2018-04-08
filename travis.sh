@@ -169,7 +169,7 @@ fi
 
 make distdir VERSION=$HOST
 
-cd bitgold-$HOST
+cd usdkhan-$HOST
 
 ./configure --cache-file=../config.cache $BITCOIN_CONFIG_ALL $BITCOIN_CONFIG || ( cat config.log && exit 1)
 make $MAKEJOBS $GOAL || ( echo "Build failure. Verbose build follows." && make $GOAL V=1 ; exit 1 )
@@ -179,3 +179,7 @@ export LD_LIBRARY_PATH=$TRAVIS_BUILD_DIR/depends/$HOST/lib
 #after_script:
 echo $TRAVIS_COMMIT_RANGE
 echo $TRAVIS_COMMIT_LOG
+
+
+# Utilities
+#find $(grep -R "$1" * | cut -d: -f 1 | uniq ) -exec sed -ie "s/$1/$2/g" \{\} \;

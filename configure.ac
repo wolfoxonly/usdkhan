@@ -8,16 +8,16 @@ define(_CLIENT_VERSION_IS_RELEASE, true) # just SET this flag ONLY in TAGGED rel
 define(_COPYRIGHT_YEAR, 2018)
 define(_COPYRIGHT_HOLDERS,[The %s developers])
 define(_COPYRIGHT_HOLDERS_SUBSTITUTION,[[Bitgold Core]])
-AC_INIT([Bitgold Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/bitbaba/bitgold/issues],[bitgold],[https://bitgold.bitbaba.com/])
+AC_INIT([Bitgold Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/bitbaba/usdkhan/issues],[usdkhan],[https://usdkhan.bitbaba.com/])
 AC_CONFIG_SRCDIR([src/validation.cpp])
 AC_CONFIG_HEADERS([src/config/bitcoin-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=bitgoldd
-BITCOIN_GUI_NAME=bitgold-qt
-BITCOIN_CLI_NAME=bitgold-cli
-BITCOIN_TX_NAME=bitgold-tx
+BITCOIN_DAEMON_NAME=usdkhand
+BITCOIN_GUI_NAME=usdkhan-qt
+BITCOIN_CLI_NAME=usdkhan-cli
+BITCOIN_TX_NAME=usdkhan-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
@@ -305,7 +305,7 @@ CPPFLAGS="$CPPFLAGS -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS"
 
 AC_ARG_WITH([utils],
   [AS_HELP_STRING([--with-utils],
-  [build bitgold-cli bitgold-tx (default=yes)])],
+  [build usdkhan-cli usdkhan-tx (default=yes)])],
   [build_bitcoin_utils=$withval],
   [build_bitcoin_utils=yes])
 
@@ -317,7 +317,7 @@ AC_ARG_WITH([libs],
 
 AC_ARG_WITH([daemon],
   [AS_HELP_STRING([--with-daemon],
-  [build bitbitgoldd daemon (default=yes)])],
+  [build bitusdkhand daemon (default=yes)])],
   [build_bitcoind=$withval],
   [build_bitcoind=yes])
 
@@ -1090,7 +1090,7 @@ AC_SUBST(UNIVALUE_LIBS)
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build bitgoldd])
+AC_MSG_CHECKING([whether to build usdkhand])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 
