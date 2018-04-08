@@ -158,8 +158,8 @@ public:
         consensus.hashGenesisBlock = genesis.GetHash();
 
         // Ref: https://en.bitcoin.it/wiki/List_of_address_prefixes
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,38); // 'G'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,63); // 'S'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,68); // 'U'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,130); // 'u'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);// '5' for uncompressed, 'K','L' for compressed
         // BIP32 pubkey
         base58Prefixes[EXT_PUBLIC_KEY] = {4, 136, 178, 30}; // xpub
