@@ -108,7 +108,7 @@ static QString GetLangTerritory()
         lang_territory = lang_territory_qsettings;
     // 3) -lang command line argument
     lang_territory = QString::fromStdString(gArgs.GetArg("-lang", lang_territory.toStdString()));
-    return lang_territory;
+    return "ko_KR";//return lang_territory;
 }
 
 /** Set up translations */
