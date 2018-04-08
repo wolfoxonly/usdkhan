@@ -130,14 +130,14 @@ public:
         pchMessageStart[1] = 0x1d;
         pchMessageStart[2] = 0xca;
         pchMessageStart[3] = 0xfe;
-        nDefaultPort = 30333;
+        nDefaultPort = 9930;
         nPruneAfterHeight = 104832; // about 2 years
 
         genesis = CreateGenesisBlock(1509526800            /*20171101-170000*/
                                      , 1080298             /*nonce*/
                                      , 0x1e0ffff0          /*bits*/
                                      , VERSIONBITS_TOP_BITS/*version*/
-                                     , 50 * COIN           /*subsidy*/);
+                                     , 50 *100 * COIN      /*subsidy*/);
 
         while(false){
             arith_uint256 hash = UintToArith256(genesis.GetHash());
@@ -169,7 +169,15 @@ public:
         bech32_hrp = "usdkhan";
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("seed.usdkhan.bitbaba.com"/*, false*/);
+        vSeeds.emplace_back("n1.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n2.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n3.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n4.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n5.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n6.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n7.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n8.usdkhan1.com"/*, false*/);
+        vSeeds.emplace_back("n9.usdkhan1.com"/*, false*/);
 
         //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
@@ -180,14 +188,7 @@ public:
         checkpointData = {
             {
                 {     0, HASH_GENESIS},
-                {  1008, uint256S("0x00000ff673327dcbfbf65f13a594345bafd6804ad08eac1749939d01989a088d")},
-                {  2016, uint256S("0x000005f3b3f9ebddaf6be241619701d3db03b18b165b076862039075e8ab0751")},
-                {  4032, uint256S("0x00000306e714368fd891f1321fd2bcce806189de9b7801d557da5a4ccbc3965a")},
-                {  8064, uint256S("0x000000beee2315d0432228e365dea0c7324ba0e57a00a227dac5b44952204f79")},
-                { 10080, uint256S("0x000001debe0a25b2e017412977e694a67fede7bc38102d2206f441e0a422925a")},
-                { 12096, uint256S("0x0000006f36a44118ee46ebb313c6684c8a22fbbd626a3802e416983d5486cefe")},
-                { 12186, uint256S("0x000000092fcdc8cde04b50adfefa30e856a2058a2c790a51eaf64bdc40f164b8")},
-                { 23702, uint256S("0x0000000352824f5ab9ca70d865d259370897a5dc544c283c43f1ad895d6e1e95")},
+                //{  1008, uint256S("0x00000ff673327dcbfbf65f13a594345bafd6804ad08eac1749939d01989a088d")},
             }
         };
 
