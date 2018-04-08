@@ -383,7 +383,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>要求付款 (產生QR碼 bitcoin: URIs)</translation>
+        <translation>要求付款 (產生QR碼 usdkhan: URIs)</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>

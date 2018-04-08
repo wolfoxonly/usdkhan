@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un bitcoin: URI o petición de pago</translation>
+        <translation>Abrir un usdkhan: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

@@ -929,7 +929,7 @@
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>bitcoin-core</translation>
+        <translation>usdkhan-core</translation>
     </message>
     <message>
         <source>Information</source>

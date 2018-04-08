@@ -367,11 +367,11 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja bitcoini: URId)</translation>
+        <translation>Loo maksepäring (genereerib QR koodid ja usdkhani: URId)</translation>
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Ava bitcoini: URI või maksepäring</translation>
+        <translation>Ava usdkhani: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

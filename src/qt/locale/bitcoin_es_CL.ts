@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar monedas a una dirección bitcoin</translation>
+        <translation>Enviar monedas a una dirección usdkhan</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -207,7 +207,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and bitcoin: URls)</translation>
+        <translation>Pide pagos (genera codigos QR and usdkhan: URls)</translation>
     </message>
     <message>
         <source>Error</source>
@@ -777,7 +777,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>bitcoin core</translation>
+        <translation>usdkhan core</translation>
     </message>
     <message>
         <source>Error loading block database</source>

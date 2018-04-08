@@ -407,7 +407,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en bitcoin: URI's)</translation>
+        <translation>Versoek betalings (genereer QR-kodes en usdkhan: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Skep 'n bitcoin: URI of betalingsversoek</translation>
+        <translation>Skep 'n usdkhan: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
