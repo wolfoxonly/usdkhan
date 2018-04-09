@@ -112,7 +112,7 @@ public:
         // Deployment of SegWit (BIP141, BIP143, and BIP147)
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 0; // January 1, 1970
-        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 0;   // January 1, 1970
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1527782400; // Jun. 1, 2018
 
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000000000fffff");
@@ -137,7 +137,7 @@ public:
                                      , 1080298             /*nonce*/
                                      , 0x1e0ffff0          /*bits*/
                                      , VERSIONBITS_TOP_BITS/*version*/
-                                     , 50 *100 * COIN      /*subsidy*/);
+                                     , 50 * COIN           /*subsidy*/);
 
         while(false){
             arith_uint256 hash = UintToArith256(genesis.GetHash());
