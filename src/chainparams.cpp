@@ -137,7 +137,7 @@ public:
                                      , 1080298             /*nonce*/
                                      , 0x1e0ffff0          /*bits*/
                                      , VERSIONBITS_TOP_BITS/*version*/
-                                     , 50 * COIN           /*subsidy*/);
+                                     , 50 *100 * COIN      /*subsidy*/);
 
         while(false){
             arith_uint256 hash = UintToArith256(genesis.GetHash());
